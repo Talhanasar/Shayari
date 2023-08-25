@@ -47,7 +47,7 @@ let arr = Hindi;
 let i = 0;
 const run = () => {
   if (i == arr.length) {
-    i=0;
+    i--;
   }else if(i<0){
     i++;
   }
