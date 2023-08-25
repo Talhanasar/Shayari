@@ -67,6 +67,22 @@
   #search:hover .fa-searchengin::before{
     color:#d08d36;
   }
+  #Prev{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    border-radius: 12px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 141, 54);
+    cursor: pointer;
+  }
+  #Prev:hover{
+    box-shadow: 2px 2px 5px #d08d36;
+  }
 
   /* Phone design */
 
