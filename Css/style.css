@@ -67,3 +67,33 @@
   #search:hover .fa-searchengin::before{
     color:#d08d36;
   }
+
+  /* Phone design */
+
+  @media (width<=440px){
+    .Box {
+      top: 20%;
+    }
+    .Box h1{
+      width: 200px;
+      font-size: 1.5rem;
+      margin-top: 7px;
+    }
+    .lang{
+      position: absolute;
+      top: 10%;
+    }
+    .shayari{
+      margin: 15px;
+    }
+    @media (width<=418px){
+      .shayari{
+        margin: 0;
+        margin-top: 7px;
+        height: 220px;
+      }
+      .Box h1{
+        margin-top: 9px;
+      }
+    }
+  }
