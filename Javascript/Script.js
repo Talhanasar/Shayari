@@ -42,9 +42,13 @@ let urdu = [`تمہاری یادوں کی خوشبو میری سانسوں می�
   تیرے سجدے کہیں تجھے کافر نہ کر دیں اے
   ...انسان....
   تو جھکتا کہیں اور ہے اور سوچتا کہیں اور ہے.....!!!`];
+
+
 let check = document.getElementById("choose");
 let arr = Hindi;
 let i = 0;
+
+
 const run = () => {
   if (i == arr.length) {
     i--;
@@ -52,21 +56,18 @@ const run = () => {
     i++;
   }
   show.innerHTML = arr[i];
-  console.log(i);
 }
 run();
 const search = () => {
+  i =  0;
   if (check.selectedIndex == 0) {
     arr = Hindi;
-    i = 0;
     run();
   } else if (check.selectedIndex == 1) {
     arr = english;
-    i = 0;
     run();
   } else {
     arr = urdu;
-    i = 0;
     run();
   }
 }
